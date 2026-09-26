@@ -8,9 +8,9 @@ export class Subtitles {
 
 	private textList: string[] = [
 		"",
-		"理想をトコトン突き詰めるために、いつも柔軟な発想を。",
-		"これまでにない提案を実現するために、常に挑戦者であり続けます。",
-		"わたしたちは、ものづくりで、多様な感動と成果をも生み出します。"
+		"Untuk menggali cita-cita sampai tuntas, selalu dengan pemikiran yang fleksibel.",
+		"Untuk mewujudkan usulan yang belum pernah ada, kami selalu menjadi penantang.",
+		"Melalui proses berkarya, kami menghasilkan beragam keindahan dan hasil."
 	];
 
 	constructor( ) {
@@ -41,7 +41,7 @@ export class Subtitles {
 		this.elm.appendChild( textElm );
 
 		let noiseText = new NoiseText( span );
-		noiseText.noise = "このサイト作るの意外と大変なんですよこれが";
+		noiseText.noise = "bikin website ini ternyata susah banget lho ini";
 		noiseText.show( text, duration, 40 );
 
 		noiseText.onFinishAnimation = () => {

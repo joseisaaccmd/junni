@@ -10,7 +10,7 @@
     "dev": "npx gulp",
     "build": "npx gulp build"
   },
-  "author": "junni",
+  "author": "Joseph",
   "bugs": {
     "url": ""
   },

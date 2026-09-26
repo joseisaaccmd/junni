@@ -24,10 +24,10 @@ export class Section4 extends Section {
 
 	private textIndex: number = 0;
 	private textList: string[] = [
-		'surprise',
-		"emotion",
-		"story",
-		"awesome"
+		'kejutan',
+		"emosi",
+		"cerita",
+		"hebat"
 	];
 
 	// layout
@@ -179,7 +179,7 @@ export class Section4 extends Section {
 
 		this.title.position.set( - 2.8, 3.5, - 0.7 );
 		this.title.scale.setScalar( 0.9 );
-		this.title.setText( 'making' );
+		this.title.setText( 'membuat' );
 		this.title.switchVisiblity( this.sectionVisibility );
 		ground.add( this.title );
 
